@@ -2,7 +2,12 @@ import javax.swing.*;
 import java.io.*;
 import java.util.*;
 
-public class Proyecto1Comp {
+//ESTO ES UN COMENTARIO DE PRUEBA, PARA SIMULAR LOS CAMBIOS DE OTROS COLABORADORES QUE ESTAN
+//TRABAJANDO CONMIGO EN GITHUB.
+
+//MI CAMBIO: CAMBIE EL NOMBRE DE LA CLASE PRINCIPAL A PROYECTOJAVA.
+
+public class ProyectoJava {
 	public static void main(String[]args)throws IOException {
 		Scanner sc = new Scanner(System.in);
 		String a;
@@ -40,7 +45,7 @@ public class Proyecto1Comp {
 				System.out.println("Sumatoria");
 				System.out.println("");
 				System.out.println("-----------------------------------------------------");
-				System.out.println("Ingrese la cantidad de n˙meros que desea procesar:");
+				System.out.println("Ingrese la cantidad de n√∫meros que desea procesar:");
 				cant = Integer.parseInt(entrada.readLine());
 				System.out.println("");
 				
@@ -48,7 +53,7 @@ public class Proyecto1Comp {
 				
 				
 				for(int i=0;i<cant;i++) {
-					System.out.print("Ingrese numero en la posiciÛn-"+(i+1)+": ");
+					System.out.print("Ingrese numero en la posici√≥n-"+(i+1)+": ");
 					num[i]=Integer.parseInt(entrada.readLine());
 				}
 				
@@ -58,14 +63,14 @@ public class Proyecto1Comp {
 				
 				System.out.println("");
 				System.out.println("-----------------------------------------------------");
-				System.out.println("La sumatoria total de los n˙meros ingresados es: "+acum);
+				System.out.println("La sumatoria total de los n√∫meros ingresados es: "+acum);
 				break;
 //--------------------------------------------------------------------------------------------------			
 			case 2:
 				
 				int i=0,j=0;
 				
-				System.out.println("N˙meros pares del 1 al 10");
+				System.out.println("N√∫meros pares del 1 al 10");
 				System.out.println("-----------------------------");
 				
 				for(i=0;i<=10;i=i+2) {
@@ -81,7 +86,7 @@ public class Proyecto1Comp {
 				
 				int num1=0,num2=1,sum=0;
 				
-				System.out.println("15 primeros n˙meros de la serie Fibonacci");
+				System.out.println("15 primeros n√∫meros de la serie Fibonacci");
 				System.out.println("-----------------------------------------");
 				System.out.println("");
 				System.out.println("                   | 0 " );
@@ -100,10 +105,10 @@ public class Proyecto1Comp {
 					int cant1 = 0;
 					sum=0;
 					
-					System.out.println("Suma de los n˙meros pares y producto de los impares");
+					System.out.println("Suma de los n√∫meros pares y producto de los impares");
 					System.out.println("---------------------------------------------------");
 					System.out.println("");
-					System.out.println("Ingrese la cantidad de n˙meros que desea procesar:");
+					System.out.println("Ingrese la cantidad de n√∫meros que desea procesar:");
 					cant1 = sc.nextInt();
 					System.out.println("");
 					System.out.println("---------------------------------------------------");
@@ -114,7 +119,7 @@ public class Proyecto1Comp {
 					
 					System.out.println("");
 					for(i=0;i<cant1;i++) {
-						System.out.print((i+1)+". Ingrese un n˙mero: ");
+						System.out.print((i+1)+". Ingrese un n√∫mero: ");
 						num[i]= sc.nextInt();
 						System.out.println("");
 					}
@@ -162,10 +167,10 @@ public class Proyecto1Comp {
 				InputStreamReader lecto = new InputStreamReader(System.in);
 				BufferedReader entrad = new BufferedReader(lecto);
 				
-				System.out.println("Determinar si el n˙mero es primo");
+				System.out.println("Determinar si el n√∫mero es primo");
 				System.out.println("--------------------------------");
 				System.out.println("");
-				System.out.print("Ingrese un n˙mero: ");
+				System.out.print("Ingrese un n√∫mero: ");
 				int numer = Integer.parseInt(entrad.readLine());
 				System.out.println("");
 
@@ -181,9 +186,9 @@ public class Proyecto1Comp {
 						
 				System.out.println("--------------------------------");
 				if(auxi==2) {
-					System.out.println("El n˙mero " + numer + " es primo");
+					System.out.println("El n√∫mero " + numer + " es primo");
 				}else {
-					System.out.println("El n˙mero " + numer + " no es primo");
+					System.out.println("El n√∫mero " + numer + " no es primo");
 				}
 				
 				break;
@@ -198,7 +203,7 @@ public class Proyecto1Comp {
 				System.out.println("Calcular factorial");
 				System.out.println("--------------------------------------------------");
 				System.out.println("");
-				System.out.print("Ingrese un n˙mero: ");
+				System.out.print("Ingrese un n√∫mero: ");
 				nu = sc.nextInt();
 				System.out.println("");
 				
@@ -222,10 +227,10 @@ public class Proyecto1Comp {
 				BufferedReader entra = new BufferedReader(lect);
 				
 				
-				System.out.println("Convertir un n˙mero decimal a binario");
+				System.out.println("Convertir un n√∫mero decimal a binario");
 				System.out.println("-----------------------------------------------");
 				System.out.println("");
-				System.out.print("Ingrese un n˙mero: ");
+				System.out.print("Ingrese un n√∫mero: ");
 				number = Integer.parseInt(entra.readLine());
 				System.out.println("");
 				System.out.println("-----------------------------------------------");
@@ -246,7 +251,7 @@ public class Proyecto1Comp {
 					}
 				}
 				
-				System.out.print("El n˙mero "+number+" convertido a binario = ");
+				System.out.print("El n√∫mero "+number+" convertido a binario = ");
 				for(i=(cont);i>=0;i--) {
 					System.out.print(bin[i]);
 				}
@@ -263,7 +268,7 @@ public class Proyecto1Comp {
 				c=sc.nextDouble();
 				
 				f=((c*9)/5)+32;
-				System.out.printf("\n%.2f∞C = %.2f∞F\n", c, f);
+				System.out.printf("\n%.2f¬∞C = %.2f¬∞F\n", c, f);
 				break;
 				
 //--------------------------------------------------------------------------------------------------
@@ -271,7 +276,7 @@ public class Proyecto1Comp {
 				
 				double x, y, r;
 				
-				System.out.print("HIPOTENUSA DE UN TRI¡NGULO RECT¡NGULO\n\n");
+				System.out.print("HIPOTENUSA DE UN TRI√ÅNGULO RECT√ÅNGULO\n\n");
 				System.out.print("Ingresa la longitud del Cateto 'X': ");
 				x=sc.nextDouble();
 				System.out.print("Ingresa la longitud del Cateto 'Y': ");
@@ -287,8 +292,8 @@ public class Proyecto1Comp {
 				
 				int anio;
 				
-				System.out.print("CALCULO A—O BISIESTO\n\n");
-				System.out.print("Ingresa un aÒo para determinar si ES o NO Bisiesto: ");
+				System.out.print("CALCULO A√ëO BISIESTO\n\n");
+				System.out.print("Ingresa un a√±o para determinar si ES o NO Bisiesto: ");
 				anio=sc.nextInt();
 				System.out.print("\n");
 				
@@ -296,27 +301,27 @@ public class Proyecto1Comp {
 				if((anio%4) == 0) {
 					if((anio%100) == 0) {
 						if((anio%400) == 0) {
-							System.out.print(anio+" ES UN A—O BISIESTO (TIENE 366 DIAS)");
+							System.out.print(anio+" ES UN A√ëO BISIESTO (TIENE 366 DIAS)");
 						}
 						else {
-							System.out.print(anio+" NO ES UN A—O BISIESTO (TIENE 365 DIAS)");
+							System.out.print(anio+" NO ES UN A√ëO BISIESTO (TIENE 365 DIAS)");
 						}
 					}
 					else {
-						System.out.print(anio+" ES UN A—O BISIESTO (TIENE 366 DIAS)");
+						System.out.print(anio+" ES UN A√ëO BISIESTO (TIENE 366 DIAS)");
 					}
 				}
 				else {
-					System.out.print(anio+" NO ES UN A—O BISIESTO (TIENE 365 DIAS)");
+					System.out.print(anio+" NO ES UN A√ëO BISIESTO (TIENE 365 DIAS)");
 				}
 				break;
 //--------------------------------------------------------------------------------------------------
 			case 11:
-				System.out.println("*********** EjecuciÛn finalizada ***********");
+				System.out.println("*********** Ejecuci√≥n finalizada ***********");
 				break;
 //--------------------------------------------------------------------------------------------------
 			default:
-				System.out.println("*********** Ingrese una opciÛn v·lida *********** ");
+				System.out.println("*********** Ingrese una opci√≥n v√°lida *********** ");
 			}
 			
 //--------------------------------------------------------------------------------------------------
