@@ -1,10 +1,8 @@
-//
+//--------------------------------------------
 import java.io*
 
 prueba de rama
-
-esta es la rama master.
-
+//--------------------------------------------
 agrege cambios, esta es la rama V.1.5
 Cambios:
 
@@ -13,3 +11,8 @@ public class Main {
 		Escribir "Hola Version 1.5";
 	}
 }
+//-------------------------------------------
+cambios hechos en github:
+system.out.prinln("Hola este es un cambio hecho en github");
+r^2 = x^2 + y^2
+
