@@ -1,3 +1,10 @@
+//Cambios del miembro #2
+Escribir "NUMERO";
+Si (y=3) Entonces
+	Escribir "Hola";
+FinSi
+
+
 Linea de Reemplazamiento de Commit 1.
 
 
