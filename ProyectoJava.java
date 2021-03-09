@@ -1,3 +1,8 @@
+//Codigo del miembro #1
+Escribir "Ingresa un numero";
+Leer x;
+
+
 Linea de Reemplazamiento de Commit 1.
 
 
