@@ -1,8 +1,6 @@
-//Cambios del miembro #2
-Escribir "NUMERO";
-Si (y=3) Entonces
-	Escribir "Hola";
-FinSi
+//Cambios corregidos
+Escribir "Cambios corregidos";
+Leer nc2;
 
 
 Linea de Reemplazamiento de Commit 1.
