@@ -1,5 +1,6 @@
 Hola
 esto es una prueba #1
+esto es una prueba #2
 
 import javax.swing.*;
 import java.io.*;
